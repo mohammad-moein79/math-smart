@@ -122,7 +122,7 @@ export default class Quiz extends Component {
                                         </div>
                                    </div>
                               ) : (
-                                   <div className='h-screen flex justify-end bgs p-10  items-center'>
+                                   <div className='h-screen flex justify-end md:bgs p-10  items-center'>
                                         <div className='min-w-[450px] bg-[#313241] rounded-lg  border-[#47404052] border-solid border-[1px] flex flex-col items-center p-5'>
                                              <div className='text-center text-[25px] text-white  mb-8'>
                                                   نام خود را وارد کنید

@@ -49,7 +49,7 @@ export default class ShowScor extends Component {
                                         <div className='text-[14px] text-blue-400'>
                                              <span>{`${userNameAcoount}`} عزیز</span>
                                              <br />
-                                             <span> شما در ازمون وبسایت ریاضی اسمارت {score <= (length - 6) ? ("موفق نشدید لطفا بیشتر تلاش کنید") : ("برنده شدید")} .</span>
+                                             <span> شما در ازمون وبسایت هوش ریاضی  {score <= (length - 6) ? ("موفق نشدید لطفا بیشتر تلاش کنید") : ("برنده شدید")} .</span>
 
                                         </div>
                                    </div>
