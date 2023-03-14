@@ -62,30 +62,12 @@
 
   .input:focus {
     border: 2px solid #3b82f6;
-  }
-
-  .hobos {
-    position: absolute;
-    border-radius: 100%;
-    animation: hoboss 2s linear infinite;
+    box-shadow: 0 0 2px #3b82f6;
   }
 
   .bgs {
     background-image: url("./Components/Imgs/computer-graphics-designer-work-on-desk-in-office-vector-30799459_prev_ui.png");
     background-repeat: no-repeat;
     background-position: 80% 51%;
-  }
-
-  @keyframes hoboss {
-    0% {
-      -webkit-box-shadow: 0 0 0 0 rgba(13, 199, 255, 0.6);
-    }
-
-    70% {
-      -webkit-box-shadow: 0 0 0 14px rgba(13, 231, 255, 0);
-    }
-    100% {
-      -webkit-box-shadow: 0 0 0 0 rgba(13, 118, 255, 0);
-    }
   }
 }

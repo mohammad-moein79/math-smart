@@ -36,7 +36,7 @@ export default class ShowScor extends Component {
                          <div className='flex items-center justify-between p-3 bg-[#313241] gap-6 min-h-[250px] md:min-w-[700px] min-w-[450px] rounded-lg'>
                               <div className='flex flex-col justify-between min-h-[330px] md:w-[55%]  w-full'>
                                    <div className=''>
-                                        {score <= (length - 6) ? (
+                                        {score <= (length - 10) ? (
                                              <h2 className='text-red-500 text-[28px] font-medium'>
                                                   شما موفق نشدید !
                                              </h2>
@@ -49,7 +49,7 @@ export default class ShowScor extends Component {
                                         <div className='text-[14px] text-blue-400'>
                                              <span>{`${userNameAcoount}`} عزیز</span>
                                              <br />
-                                             <span> شما در ازمون وبسایت هوش ریاضی  {score <= (length - 6) ? ("موفق نشدید لطفا بیشتر تلاش کنید") : ("برنده شدید")} .</span>
+                                             <span> شما در ازمون وبسایت هوش ریاضی  {score <= (length - 10) ? ("موفق نشدید لطفا بیشتر تلاش کنید") : ("برنده شدید")} .</span>
 
                                         </div>
                                    </div>
@@ -75,7 +75,7 @@ export default class ShowScor extends Component {
                                    </div>
                               </div>
                               <div className='h-full xl:w-[45%] hidden md:block'>
-                                   {score <= (length - 6) ? (
+                                   {score <= (length - 10) ? (
                                         <img src="https://img.freepik.com/free-vector/time-administration-with-worker-hourglass_1133-273.jpg?1?w=360" className='w-[350px] rounded-xl' alt="" />
                                    ) : (
                                         <img src="https://s2.uupload.ir/files/simple-flat-design-trophy_662089-56_065t.jpg" className='w-[350px] rounded-xl' alt="" />
