@@ -21,7 +21,7 @@ export default class ShowScor extends Component {
                this.setState({
                     addClassInfo: false
                })
-          }, 17000);
+          }, 25000);
      }
 
      hi() {
@@ -71,7 +71,7 @@ export default class ShowScor extends Component {
                                    </div>
                                    <div className=''>
                                         <button onClick={this.hi} className='animate text-white text-[18px] hover:bg-blue-700 bg-blue-500 pr-4 pl-4 pt-2 pb-2 rounded-md'>شروع مجدد آزمون</button>
-                                        <button className='mr-3 text-[15px] underline text-white' onClick={this.toggleClass}>دیدن اطلاعات سازنده وبسایت</button>
+                                        <button className='mr-3 text-[15px] underline text-white' onClick={this.toggleClass}>دیدن اطلاعات توسعه دهنده وبسایت</button>
                                    </div>
                               </div>
                               <div className='h-full xl:w-[45%] hidden md:block'>
@@ -85,7 +85,7 @@ export default class ShowScor extends Component {
                          </div>
                     </div>
                     <div className={`${this.state.addClassInfo ? "showInfo" : null} border-[#47404052] border-solid border-[1px] absolute  top-10 right-[-500px]  text-white bg-blue-500 af p-3 min-w-[420px] rounded-lg`}>
-                         <h2 className='text-[22px]'>اطلاعات سازنده</h2>
+                         <h2 className='text-[22px]'>اطلاعات توسعه دهنده</h2>
                          <p>نام و نام خانوادگی  : سید محمد معین حسینی تبار</p>
                          <p>متولد : 1386/11/10</p>
                          <p>محل سکونت : استان قزوین , شهر الوند</p>
